@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "foo.c"
 
 static int x;
 
