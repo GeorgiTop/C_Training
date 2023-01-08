@@ -8,6 +8,7 @@ If the number is smaller than the width then rest is filled with spaces.
 #include <stdio.h>
 int main()
 {
+    int const * a const;
     int pos = 14;
     float data = 1.2;
     printf("%*f",pos,data);

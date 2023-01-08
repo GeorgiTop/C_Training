@@ -21,3 +21,20 @@ int ( *p )( char * );
 
 // An array of five pointers to functions that take an integer argument and return an integer.
 int ( *p[5] )( int );
+
+// Integer Constant
+const int a;
+
+// Integer Constant
+int const a;
+
+// Pointer to Integer Constant
+const int *a;
+
+// Pointer Constatn to Integer
+int * const a;
+
+// Pointer Constatn to Integer Constant
+const int *const a;
+int const *const a;
+
